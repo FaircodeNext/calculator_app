@@ -1,0 +1,20 @@
+{
+ "app": "calculator_app",
+ "creation": "2026-10-28 15:53:55.098988",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "App",
+ "idx": 15,
+ "label": "Calculator",
+ "link": "/calculator",
+ "link_type": "External",
+ "logo_url": "/assets/calculator_app/calculator-black-white.svg",
+ "modified": "2026-10-28 16:16:55.595397",
+ "modified_by": "Administrator",
+ "name": "Calculator",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

@@ -1,7 +1,7 @@
 app_name = "calculator_app"
-app_title = "Calculator"
+app_title = "Desk Calculator"
 app_publisher = "Amala"
-app_description = "Stand alone calculator"
+app_description = "Open a draggable calculator from every Frappe Desk page."
 app_email = "amalageorge.work@gmail.com"
 app_license = "mit"
 
@@ -11,22 +11,22 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "calculator_app",
-# 		"logo": "/assets/calculator_app/logo.png",
-# 		"title": "Calculator",
-# 		"route": "/calculator_app",
-# 		"has_permission": "calculator_app.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "calculator_app",
+		"logo": "/assets/calculator_app/calculator-black-white.svg",
+		"title": "Calculator",
+		"route": "/calculator",
+		"sequence_id": 30,
+	}
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/calculator_app/css/calculator_app.css"
-# app_include_js = "/assets/calculator_app/js/calculator_app.js"
+app_include_css = "/assets/calculator_app/css/calculator-widget.css?v=20261028-2"
+app_include_js = "/assets/calculator_app/js/calculator-widget-drag-20261028-v2.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/calculator_app/css/calculator_app.css"
@@ -255,4 +255,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-

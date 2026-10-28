@@ -3,7 +3,7 @@ name = "calculator_app"
 authors = [
     { name = "Amala", email = "amalageorge.work@gmail.com"}
 ]
-description = "Stand alone calculator"
+description = "Open a draggable calculator from every Frappe Desk page."
 requires-python = ">=3.14"
 readme = "README.md"
 dynamic = ["version"]
