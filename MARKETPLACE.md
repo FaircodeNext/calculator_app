@@ -25,13 +25,13 @@ Use this copy when completing the Calculator listing. The Marketplace form and r
 
 ## Required listing links
 
-The Marketplace listing requires Website, Support, Documentation, Terms of Service, and Privacy Policy URLs. Replace `<GITHUB_OWNER>` with the owner of the public repository before submitting:
+The Marketplace listing requires Website, Support, Documentation, Terms of Service, and Privacy Policy URLs. Use these links for the `FaircodeNext/calculator_app` repository:
 
-- **Website:** `https://github.com/<GITHUB_OWNER>/calculator_app`
-- **Support:** `https://github.com/<GITHUB_OWNER>/calculator_app/issues`
-- **Documentation:** `https://github.com/<GITHUB_OWNER>/calculator_app/blob/version-16/README.md`
-- **Terms of Service:** `https://github.com/<GITHUB_OWNER>/calculator_app/blob/version-16/docs/marketplace/terms-of-service.md`
-- **Privacy Policy:** `https://github.com/<GITHUB_OWNER>/calculator_app/blob/version-16/docs/marketplace/privacy-policy.md`
+- **Website:** `https://github.com/FaircodeNext/calculator_app`
+- **Support:** `https://github.com/FaircodeNext/calculator_app/issues`
+- **Documentation:** `https://github.com/FaircodeNext/calculator_app/blob/version-16/README.md`
+- **Terms of Service:** `https://github.com/FaircodeNext/calculator_app/blob/version-16/docs/marketplace/terms-of-service.md`
+- **Privacy Policy:** `https://github.com/FaircodeNext/calculator_app/blob/version-16/docs/marketplace/privacy-policy.md`
 
 These links become usable only after the repository is public. This checkout currently has no Git remote configured.
 
@@ -42,6 +42,6 @@ These links become usable only after the repository is public. This checkout cur
 - [x] CI runs calculator tests, the frontend build, and pre-commit linters.
 - [ ] Confirm `calculator_app` is unique on the Marketplace.
 - [ ] Publish this app in a public GitHub repository owned by the publisher.
-- [ ] Replace the owner placeholder in the five listing URLs and verify each page is public.
+- [ ] Verify that each listing URL is public and opens the intended page.
 - [ ] Upload the screenshot and record a short demo video for the review team.
 - [ ] Become a Frappe Cloud Marketplace publisher, add the repository and branch, complete the listing, submit a release, and request review.
