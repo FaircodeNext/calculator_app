@@ -163,10 +163,7 @@
 			panel.hidden = !shouldOpen;
 			launcher.hidden = shouldOpen;
 			if (!shouldOpen) {
-				applyPosition(
-					launcher,
-					readPosition("calculator-widget-launcher-position")
-				);
+				applyPosition(launcher, readPosition("calculator-widget-launcher-position"));
 			}
 			launcher.setAttribute("aria-expanded", String(shouldOpen));
 			launcher.setAttribute(

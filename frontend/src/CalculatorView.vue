@@ -206,7 +206,14 @@ html.calculator-mini #app {
 	padding: 10px;
 	background: var(--bg-color, #f8f8f8);
 	color: var(--text-color, #36414c);
-	font-family: var(--font-stack, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+	font-family: var(
+		--font-stack,
+		Inter,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		sans-serif
+	);
 }
 
 html.calculator-mini .calculator-page {
@@ -265,7 +272,8 @@ html.calculator-mini .calculator-page {
 	outline: none;
 	background: var(--control-bg, #fff);
 	color: var(--text-color, #36414c);
-	font: 24px/1.2 var(--font-stack, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+	font: 24px/1.2
+		var(--font-stack, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
 	text-align: right;
 }
 
@@ -290,7 +298,8 @@ html.calculator-mini .calculator-page {
 	display: block;
 	overflow: hidden;
 	color: var(--text-color, #36414c);
-	font: 600 18px/1.25 var(--font-stack, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+	font: 600 18px/1.25
+		var(--font-stack, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
