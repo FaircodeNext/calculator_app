@@ -24,11 +24,11 @@ export default defineConfig({
 		emptyOutDir: true,
 		rollupOptions: {
 			output: {
-				entryFileNames: "calculator-bw-20261028.js",
+				entryFileNames: "calculator-bw-20261030.js",
 				chunkFileNames: "chunks/[name].js",
 				assetFileNames: (assetInfo) =>
 					assetInfo.name?.endsWith(".css")
-						? "calculator-bw-20261028.css"
+						? "calculator-bw-20261030.css"
 						: "assets/[name][extname]",
 			},
 		},

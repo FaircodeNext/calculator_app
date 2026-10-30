@@ -93,10 +93,10 @@ function keyId(key) {
 	height: 40px;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid #111;
-	border-radius: 10px;
-	background: #fff;
-	color: #111;
+	border: 1px solid var(--border-color, #d1d8dd);
+	border-radius: 6px;
+	background: var(--btn-default-bg, #fff);
+	color: var(--text-color, #36414c);
 	font-size: 17px;
 	font-weight: 600;
 	cursor: pointer;
@@ -104,7 +104,7 @@ function keyId(key) {
 }
 
 .calculator-key:hover {
-	background: #e8e8e8;
+	background: var(--control-bg, #f5f7fa);
 }
 
 .calculator-key:active {
@@ -112,8 +112,27 @@ function keyId(key) {
 }
 
 .calculator-key:focus-visible {
-	outline: 3px solid #777;
+	outline: 2px solid var(--primary, #2490ef);
 	outline-offset: 2px;
+}
+
+.calculator-key.is-action {
+	background: var(--control-bg, #f5f7fa);
+	color: var(--text-muted, #687178);
+}
+
+.calculator-key.is-operator {
+	color: var(--primary, #2490ef);
+}
+
+.calculator-key.is-equals {
+	border-color: var(--primary, #2490ef);
+	background: var(--primary, #2490ef);
+	color: var(--btn-primary-color, #fff);
+}
+
+.calculator-key.is-equals:hover {
+	filter: brightness(0.94);
 }
 
 @media (max-width: 360px) {

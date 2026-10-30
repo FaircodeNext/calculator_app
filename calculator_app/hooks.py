@@ -25,8 +25,8 @@ add_to_apps_screen = [
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/calculator_app/css/calculator-widget.css?v=20261028-2"
-app_include_js = "/assets/calculator_app/js/calculator-widget-drag-20261028-v2.js"
+app_include_css = "/assets/calculator_app/css/calculator-widget.css?v=20261030-2"
+app_include_js = "/assets/calculator_app/js/calculator-widget-drag-20261030.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/calculator_app/css/calculator_app.css"

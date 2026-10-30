@@ -143,7 +143,7 @@
         <span>Calculator</span>
         <button type="button" class="calculator-widget-close" aria-label="Close calculator">×</button>
       </header>
-      <iframe title="Mini calculator" loading="lazy" data-src="/assets/calculator_app/dist/index.html?mini=1&amp;v=20261028-2"></iframe>
+      <iframe title="Mini calculator" loading="lazy" data-src="/assets/calculator_app/dist/index.html?mini=1&amp;v=20261030-1"></iframe>
     `;
 
 		document.body.append(panel, launcher);
@@ -161,6 +161,13 @@
 		function togglePanel(open) {
 			const shouldOpen = typeof open === "boolean" ? open : panel.hidden;
 			panel.hidden = !shouldOpen;
+			launcher.hidden = shouldOpen;
+			if (!shouldOpen) {
+				applyPosition(
+					launcher,
+					readPosition("calculator-widget-launcher-position")
+				);
+			}
 			launcher.setAttribute("aria-expanded", String(shouldOpen));
 			launcher.setAttribute(
 				"aria-label",
@@ -185,7 +192,8 @@
 		});
 
 		window.addEventListener("resize", () => {
-			applyPosition(launcher, readPosition("calculator-widget-launcher-position"));
+			if (!launcher.hidden)
+				applyPosition(launcher, readPosition("calculator-widget-launcher-position"));
 			if (!panel.hidden)
 				applyPosition(panel, readPosition("calculator-widget-panel-position"));
 		});

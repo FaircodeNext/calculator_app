@@ -29,7 +29,7 @@ The Marketplace listing requires Website, Support, Documentation, Terms of Servi
 
 - **Website:** `https://github.com/FaircodeNext/calculator_app`
 - **Support:** `https://github.com/FaircodeNext/calculator_app/issues`
-- **Documentation:** `https://github.com/FaircodeNext/calculator_app/blob/version-16/README.md`
+- **Documentation:** `https://github.com/FaircodeNext/calculator_app`
 - **Terms of Service:** `https://github.com/FaircodeNext/calculator_app/blob/version-16/docs/marketplace/terms-of-service.md`
 - **Privacy Policy:** `https://github.com/FaircodeNext/calculator_app/blob/version-16/docs/marketplace/privacy-policy.md`
 
